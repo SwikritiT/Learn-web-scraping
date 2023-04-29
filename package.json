@@ -4,11 +4,21 @@
   "description": "Build a web scraper using Playwright",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js",
+    "lint:fix": "eslint --ext .js --fix"
   },
   "author": "Swikriti Tripathi",
   "license": "MIT",
   "dependencies": {
     "playwright": "^1.33.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
