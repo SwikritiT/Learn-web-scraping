@@ -1,0 +1,14 @@
+{
+  "name": "learn-web-scraping",
+  "version": "1.0.0",
+  "description": "Build a web scraper using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Swikriti Tripathi",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.33.0"
+  }
+}
